@@ -1,53 +1,54 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio de Julian</title>
-  <link rel="stylesheet" href="styles/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Julian</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
 
-  <header id="cabecera">
-    <h1>Julian</h1>
-    <p>Desarrollador Web</p>
+    <header class="header">
+        <div class="logo">
+            <h1>Julian</h1>
+            <p>Desarrollador Web</p>
+        </div>
 
-    <nav id="menu">
-      <ul>
-        <li>Inicio</li>
-        <li>Sobre mí</li>
-        <li>Proyectos</li>
-        <li>Contacto</li>
-      </ul>
-    </nav>
-  </header>
+        <nav class="nav-menu">
+            <div class="nav-menu-item">Inicio</div>
+            <div class="nav-menu-item">Sobre mi</div>
+            <div class="nav-menu-item">Proyectos</div>
+            <div class="nav-menu-item">Contacto</div>
+        </nav>
+    </header>
 
-  <main id="contenido">
-    <section id="sobre-mi">
-      <h2>Sobre mí</h2>
-      <p>Soy una desarrolladora apasionada por crear experiencias web accesibles y bonitas.</p>
-    </section>
+    <main class="content">
+        <section class="about-me">
+            <h2>Sobre mí</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam ullam, numquam odio in repudiandae, quia exercitationem dicta recusandae magnam ut laborum tempore sequi! Ea eaque commodi ab blanditiis soluta temporibus.</p>
+        </section>
 
-    <section id="proyectos">
-      <h2>Mis proyectos</h2>
+        <div class="projects">
+            <h2>Mis proyectos</h2>
 
-      <article class="proyecto">
-        <h3>App del tiempo</h3>
-        <p>Muestra el tiempo en tiempo real usando una API.</p>
-      </article>
+            <div class="project-holder">
+                <article class="project">
+                    <h3>App del tiempo</h3>
+                    <p>Muestra el tiempo en tiempo real usando una API.</p>
+                </article>
 
-      <article class="proyecto">
-        <h3>Lista de tareas</h3>
-        <p>Gestor de tareas con localStorage.</p>
-      </article>
+                <article class="project">
+                    <h3>Lista de tareas</h3>
+                    <p>Gestor de tareas con localStorage.</p>
+                </article>
+            </div>
+        </section>
 
-    </section>
+    </main>
 
-  </main>
-
-  <footer id="pie">
-    <p>&copy; 2026 Julian Reyes. Todos los derechos reservados.</p>
-  </footer>
+    <footer class="footer">
+        <p>&copy; 2026 Julian Reyes. Todos los derechos reservados.</p>
+    </footer>
 
 </body>
 </html>

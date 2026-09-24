@@ -3,3 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.62rem;
+
+    .nav-menu {
+        background-color: aliceblue;
+        display: flex;
+        gap: 1.5rem;
+        align-items: center;
+    }
+}
+
+.projects {    
+    display: flex;
+    flex-direction: column;
+
+    .project-holder {
+    display: flex;
+    flex-wrap: wrap;
+
+        .project {
+            margin: 0.5rem;
+            padding: 0.8rem;
+            border: 1px solid black;
+            border-radius: 0.25rem;
+        }
+    }
+}
