@@ -5,22 +5,24 @@
 }
 
 :root {
-    --primary-color: #0d0630;
-    --secondary-color: #18314f;
-    --tertiary-color: #384E77;
-    --complementary-color: #8BBEB2;
+    --primary-color: #0F172A;
+    --secondary-color: #1E293B;
+    --tertiary-color: #334155;
+    --complementary-color: #14B8A6;
     --second-complementary-color: #9E0031;
-    --third-complementary-color: #4CC9F0;
+    --third-complementary-color: #2DD4BF;
+    --text: black;
+    --header-text: #F8FAFC;
 }
 
 body {
-    font-family: 'Times New Roman', Times, serif ;
+    font-family: 'Inter', Times, serif ;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    color: white;
+    color: var(--header-text);
 
     padding: 1.62rem;
     background-color: var(--primary-color);
