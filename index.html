@@ -7,14 +7,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
 
     <header class="header">
         <div class="logo">
-            <h1>Julian</h1>
-            <p>Desarrollador Web</p>
+            <div class="logo-holder">
+                <div class="logo-image">
+                    <img src="images/logo.webp" alt="Logo del proyecto">
+                </div>
+                <div class="logo-text">                    
+                    <h1>Julian</h1>
+                    <p class="logo-tagline">Desarrollador Web</p>
+                </div>
+            </div>
         </div>
 
         <nav class="nav-menu">
@@ -26,6 +36,19 @@
     </header>
 
     <main class="content">
+        <section class="hero">
+            <div class="hero-arcade">
+                <div class="hero-arcade-screen">
+                    <div class="hero-arcade-screen-content">
+                        <p class="hero-arcade-screen-title">Julian</p>
+                        <p class="hero-arcade-screen-subtitle">Desarrollador web</p>                       
+                        <p class="hero-arcade-screen-description">Creo aplicaciones web modernas y funcionales utilizando JavaScript, React, Java y otras tecnologías.</p>
+                        <button>START</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="about-me">
             <h2>Sobre mí</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam ullam, numquam odio in repudiandae, quia exercitationem dicta recusandae magnam ut laborum tempore sequi! Ea eaque commodi ab blanditiis soluta temporibus.</p>
@@ -47,6 +70,18 @@
             </div>
         </section>
 
+
+        <section class="contact">
+            <h2>Contacto</h2>
+            <form>
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name" placeholder="Nombre">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Email">
+                <label for="message">Mensaje</label>
+                <textarea id="message" name="message" placeholder="Mensaje"></textarea>
+                <button>Enviar</button>
+        </section>
     </main>
 
     <footer class="footer">
