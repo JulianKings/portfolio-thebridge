@@ -28,15 +28,23 @@
         </div>
 
         <nav class="nav-menu">
-            <div class="nav-menu-item">Inicio</div>
-            <div class="nav-menu-item">Sobre mi</div>
-            <div class="nav-menu-item">Proyectos</div>
-            <div class="nav-menu-item">Contacto</div>
+            <div class="nav-menu-item">
+                <a href="#sectionHero">Inicio</a>
+            </div>
+            <div class="nav-menu-item">
+                <a href="#sectionAboutMe">Sobre Mi</a>
+            </div>
+            <div class="nav-menu-item">
+                <a href="#sectionProjects">Proyectos</a>
+            </div>
+            <div class="nav-menu-item">
+                <a href="#sectionContact">Contacto</a>
+            </div>
         </nav>
     </header>
 
     <main class="content">
-        <section class="hero">
+        <section class="hero" id="sectionHero">
             <div class="hero-arcade">
                 <div class="hero-arcade-screen">
                     <div class="hero-arcade-screen-content">
@@ -49,12 +57,12 @@
             </div>
         </section>
 
-        <section class="about-me">
-            <h2>Sobre mí</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam ullam, numquam odio in repudiandae, quia exercitationem dicta recusandae magnam ut laborum tempore sequi! Ea eaque commodi ab blanditiis soluta temporibus.</p>
+        <section class="about-me section-box" id="sectionAboutMe">
+            <h2 class="about-me-title">Sobre mí</h2>
+            <p class="about-me-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam ullam, numquam odio in repudiandae, quia exercitationem dicta recusandae magnam ut laborum tempore sequi! Ea eaque commodi ab blanditiis soluta temporibus.</p>
         </section>
 
-        <div class="projects">
+        <div class="projects" id="sectionProjects">
             <h2>Mis proyectos</h2>
 
             <div class="project-holder">
@@ -71,7 +79,7 @@
         </section>
 
 
-        <section class="contact">
+        <section class="contact" id="sectionContact">
             <h2>Contacto</h2>
             <form>
                 <label for="name">Nombre</label>
@@ -81,6 +89,7 @@
                 <label for="message">Mensaje</label>
                 <textarea id="message" name="message" placeholder="Mensaje"></textarea>
                 <button>Enviar</button>
+            </form>
         </section>
     </main>
 
