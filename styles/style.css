@@ -519,7 +519,29 @@ body {
 }
 
 @media (max-width: 768px) {
-    .project-holder {
-        flex-direction: row;
+    body {
+        overflow-x: hidden;
+    }
+
+    .header {
+        flex-direction: column;
+        position: relative;
+
+        .nav-menu {
+            flex-direction: column;
+        }
+    }
+
+    .content {
+        .projects {
+            .project-holder {
+                grid-template-columns: repeat(auto-fit, minmax(40ch, 100%));
+                max-width: 100vw;
+            }
+        }
+
+        .contact {
+            width: 95%;
+        }
     }
 }
