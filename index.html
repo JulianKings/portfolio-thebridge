@@ -51,44 +51,281 @@
                         <p class="hero-arcade-screen-title">Julian</p>
                         <p class="hero-arcade-screen-subtitle">Desarrollador web</p>                       
                         <p class="hero-arcade-screen-description">Creo aplicaciones web modernas y funcionales utilizando JavaScript, React, Java y otras tecnologías.</p>
-                        <button>START</button>
+                        <div class="hero-arcade-screen-play-button"></div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="about-me section-box" id="sectionAboutMe">
+        <section class="about-me section-box about-me-card-left about-me-card-left-animation" id="sectionAboutMe">
             <h2 class="about-me-title">Sobre mí</h2>
-            <p class="about-me-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam ullam, numquam odio in repudiandae, quia exercitationem dicta recusandae magnam ut laborum tempore sequi! Ea eaque commodi ab blanditiis soluta temporibus.</p>
+            <p class="about-me-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc convallis consequat magna. Integer maximus nulla nec lectus aliquet, vitae ultrices risus finibus. Praesent fringilla lacus vitae augue pulvinar placerat. Sed commodo nunc vitae leo hendrerit, eu molestie justo faucibus. Suspendisse accumsan leo in velit ultrices interdum. Proin scelerisque sagittis ultricies. Proin faucibus sollicitudin purus, sit amet elementum risus faucibus ut. Pellentesque suscipit, est eu varius tincidunt, justo erat ornare ipsum, facilisis ultrices ligula eros finibus dolor. Etiam ac massa nec ex tincidunt ultricies id non massa. Suspendisse nec hendrerit ligula. Mauris maximus quis sem non pretium.</p>
+        </section>
+
+        <section class="about-me section-box about-me-card-right about-me-card-right-animation" id="sectionAboutMe">
+            <h2 class="about-me-title">Mis últimos proyectos</h2>
+            <p class="about-me-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc convallis consequat magna. Integer maximus nulla nec lectus aliquet, vitae ultrices risus finibus. Praesent fringilla lacus vitae augue pulvinar placerat. Sed commodo nunc vitae leo hendrerit, eu molestie justo faucibus. Suspendisse accumsan leo in velit ultrices interdum. Proin scelerisque sagittis ultricies. Proin faucibus sollicitudin purus, sit amet elementum risus faucibus ut. Pellentesque suscipit, est eu varius tincidunt, justo erat ornare ipsum, facilisis ultrices ligula eros finibus dolor. Etiam ac massa nec ex tincidunt ultricies id non massa. Suspendisse nec hendrerit ligula. Mauris maximus quis sem non pretium.</p>
+        </section>
+
+        <section class="about-me section-box about-me-card-left about-me-card-left-animation" id="sectionAboutMe">
+            <h2 class="about-me-title">Metodologías</h2>
+            <p class="about-me-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc convallis consequat magna. Integer maximus nulla nec lectus aliquet, vitae ultrices risus finibus. Praesent fringilla lacus vitae augue pulvinar placerat. Sed commodo nunc vitae leo hendrerit, eu molestie justo faucibus. Suspendisse accumsan leo in velit ultrices interdum. Proin scelerisque sagittis ultricies. Proin faucibus sollicitudin purus, sit amet elementum risus faucibus ut. Pellentesque suscipit, est eu varius tincidunt, justo erat ornare ipsum, facilisis ultrices ligula eros finibus dolor. Etiam ac massa nec ex tincidunt ultricies id non massa. Suspendisse nec hendrerit ligula. Mauris maximus quis sem non pretium.</p>
+        </section>
+
+        <section class="about-me section-box about-me-card-right about-me-card-right-animation" id="sectionAboutMe">
+            <h2 class="about-me-title">Concentrado en los resultados</h2>
+            <p class="about-me-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc convallis consequat magna. Integer maximus nulla nec lectus aliquet, vitae ultrices risus finibus. Praesent fringilla lacus vitae augue pulvinar placerat. Sed commodo nunc vitae leo hendrerit, eu molestie justo faucibus. Suspendisse accumsan leo in velit ultrices interdum. Proin scelerisque sagittis ultricies. Proin faucibus sollicitudin purus, sit amet elementum risus faucibus ut. Pellentesque suscipit, est eu varius tincidunt, justo erat ornare ipsum, facilisis ultrices ligula eros finibus dolor. Etiam ac massa nec ex tincidunt ultricies id non massa. Suspendisse nec hendrerit ligula. Mauris maximus quis sem non pretium.</p>
         </section>
 
         <div class="projects" id="sectionProjects">
-            <h2>Mis proyectos</h2>
+            <h2 class="projects-title section-box">Mis proyectos</h2>
 
             <div class="project-holder">
-                <article class="project">
-                    <h3>App del tiempo</h3>
-                    <p>Muestra el tiempo en tiempo real usando una API.</p>
+                <article class="project-item">
+                    <div class="project-item-image">
+                        <img src="./images/project-1.webp" alt="Imagen del proyecto 1">
+                    </div>
+                    <div class="project-item-content">
+                        <div class="project-item-name">App de Ligas de Ciclismo</div>
+                        <div class="project-item-tags">
+                            <div class="project-tag">Angular</div>
+                            <div class="project-tag">Java</div>
+                            <div class="project-tag">MySQL</div>
+                            <div class="project-tag">Spring Boot</div>
+                            <div class="project-tag">Spring Framework</div>
+                            <div class="project-tag">AWS</div>
+                            <div class="project-tag">S3</div>   
+                            <div class="project-tag">SONARQUBE</div>
+                        </div>
+                        <div class="project-item-description">
+                            Aplicación web para gestionar liguillas de ciclismo, hecha con Angular y Java.
+                        </div>
+                        <div class="project-item-links">
+                            <a href="https://cyclingfantasy.netlify.app/home" class="project-item-preview" target="_blank">Previsualizar</a>
+                            <a href="https://github.com/JulianKings/cycling-fantasy" class="project-item-github" target="_blank">Github</a>
+                        </div>
+                    </div>
                 </article>
 
-                <article class="project">
-                    <h3>Lista de tareas</h3>
-                    <p>Gestor de tareas con localStorage.</p>
+                <article class="project-item">
+                    <div class="project-item-image">
+                        <img src="./images/project-2.webp" alt="Imagen del proyecto 2">
+                    </div>
+                    <div class="project-item-content">
+                        <div class="project-item-name">Hotel Miranda</div>
+                        <div class="project-item-tags">
+                            <div class="project-tag">Laravel</div>
+                            <div class="project-tag">PHP</div>
+                            <div class="project-tag">MySQL</div>
+                            <div class="project-tag">AWS</div>
+                            <div class="project-tag">SASS</div>
+                            <div class="project-tag">Toastify</div>
+                        </div>
+                        <div class="project-item-description">
+                            Una aplicación web para administrar un hotel. Profundicé en mis conocimientos de Laravel, aprendí como desplegar en un servidor apache y aprendí como manejar apropiadamente las Dependency Injections gracias a los ServiceProviders de Laravel, además de mejorar mis habilidades de maquetación y mi manejo del ORM Eloquent.
+                        </div>
+                        <div class="project-item-links">
+                            <a href="http://137.74.42.255/" class="project-item-preview" target="_blank">Previsualizar</a>
+                            <a href="https://github.com/JulianKings/hotel-miranda-laravel" class="project-item-github" target="_blank">Github</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-item">
+                    <div class="project-item-image">
+                        <img src="./images/project-3.webp" alt="Imagen del proyecto 3">
+                    </div>
+                    <div class="project-item-content">
+                        <div class="project-item-name">Panel de Administración del Hotel Miranda</div>
+                        <div class="project-item-tags">
+                            <div class="project-tag">React</div>
+                            <div class="project-tag">Express</div>
+                            <div class="project-tag">MySQL</div>
+                            <div class="project-tag">MongoDB</div>
+                            <div class="project-tag">Swagger</div>
+                            <div class="project-tag">AWS Lambda</div>
+                            <div class="project-tag">AWS S3</div>
+                            <div class="project-tag">Cypress</div>
+                            
+                        </div>
+                        <div class="project-item-description">
+                            Una aplicación web para administrar los contenidos del sitio del hotel. En este proyecto creé varias implementaciones abstractas del código (para forms, tablas y el sistema de obtención de datos) para que actualizaciones futuras fueran sencillas de implementar y mi código en general fuera mejor. Mejoré tambien mis habilidades de testeo por medio de Cypress y, en general, me volví mejor desarrollador en React y Express por la práctica.
+                        </div>
+                        <div class="project-item-links">
+                            <a href="http://hotelmirandajulian.s3-website.eu-north-1.amazonaws.com/login" class="project-item-preview" target="_blank">Previsualizar</a>
+                            <a href="https://github.com/JulianKings/hotel-miranda-dashboard" class="project-item-github" target="_blank">Github</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-item">
+                    <div class="project-item-image">
+                        <img src="./images/project-4.webp" alt="Imagen del proyecto 4">
+                    </div>
+                    <div class="project-item-content">
+                        <div class="project-item-name">Blog API</div>
+                        <div class="project-item-tags">
+                            <div class="project-tag">React</div>
+                            <div class="project-tag">Express</div>
+                            <div class="project-tag">JWT</div>
+                            <div class="project-tag">MongoDB</div>
+                        </div>
+                        <div class="project-item-description">
+                            Una pagina de prueba para mostrar los articulos de una API REST, acompañado por un sistema de administración para las operaciones CRUD y para administrar el sitio.
+                        </div>
+                        <div class="project-item-links">
+                            <a href="https://odin-blog-frontend.netlify.app/" class="project-item-preview" target="_blank">Previsualizar</a>
+                            <a href="https://github.com/JulianKings/odin-blog-api/" class="project-item-github" target="_blank">Github</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-item">
+                    <div class="project-item-image">
+                        <img src="./images/project-5.webp" alt="Imagen del proyecto 5">
+                    </div>
+                    <div class="project-item-content">
+                        <div class="project-item-name">Aplicación de '¿Dónde esta Wally?'</div>
+                        <div class="project-item-tags">
+                            <div class="project-tag">React</div>
+                            <div class="project-tag">Express</div>
+                            <div class="project-tag">JWT</div>
+                            <div class="project-tag">MongoDB</div>
+                        </div>
+                        <div class="project-item-description">
+                            Una aplicación que imita el mítico juego '¿Dónde esta Wally?', en la que puedes guardar los tiempos que tardas en resolver cada fase, e incluso agregar tus propias fases.
+                        </div>
+                        <div class="project-item-links">
+                            <a href="https://wheres-waldo-king.netlify.app/" class="project-item-preview" target="_blank">Previsualizar</a>
+                            <a href="https://github.com/JulianKings/odin-wheres-waldo" class="project-item-github" target="_blank">Github</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-item">
+                    <div class="project-item-image">
+                        <img src="./images/project-6.webp" alt="Imagen del proyecto 6">
+                    </div>
+                    <div class="project-item-content">
+                        <div class="project-item-name">Carrito de compra</div>
+                        <div class="project-item-tags">
+                            <div class="project-tag">React</div>
+                            <div class="project-tag">JavaScript</div>
+                            <div class="project-tag">HTML</div>
+                            <div class="project-tag">CSS</div>
+                        </div>
+                        <div class="project-item-description">
+                            Una pagina imitando una web de ventas, obteniendo sus productos de una API externa que guarda los articulos de la tienda, con un carrito completamente funcional que permite guardar y borrar articulos y te informa del estado de tu compra.
+                        </div>
+                        <div class="project-item-links">
+                            <a href="https://peaceful-puffpuff-4a133c.netlify.app/" class="project-item-preview" target="_blank">Previsualizar</a>
+                            <a href="https://github.com/JulianKings/odin-shopping-cart/" class="project-item-github" target="_blank">Github</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-item">
+                    <div class="project-item-image">
+                        <img src="./images/project-7.webp" alt="Imagen del proyecto 7">
+                    </div>
+                    <div class="project-item-content">
+                        <div class="project-item-name">App del Tiempo</div>
+                        <div class="project-item-tags">
+                            <div class="project-tag">JavaScript</div>
+                            <div class="project-tag">HTML</div>
+                            <div class="project-tag">CSS</div>
+                        </div>
+                        <div class="project-item-description">
+                            Una app minimalista que busca la informacion del tiempo de una API externa de la ciudad deseada y te ofrece toda la inforamción disponible sobre ella, incluyendo una previsión del tiempo de los próximos días.
+                        </div>
+                        <div class="project-item-links">
+                            <a href="https://juliankings.github.io/odin-weather-app/" class="project-item-preview" target="_blank">Previsualizar</a>
+                            <a href="https://github.com/JulianKings/odin-weather-app/" class="project-item-github" target="_blank">Github</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-item">
+                    <div class="project-item-image">
+                        <img src="./images/project-8.webp" alt="Imagen del proyecto 8">
+                    </div>
+                    <div class="project-item-content">
+                        <div class="project-item-name">Pagina de un Restaurante</div>
+                        <div class="project-item-tags">
+                            <div class="project-tag">JavaScript</div>
+                            <div class="project-tag">HTML</div>
+                            <div class="project-tag">CSS</div>
+                        </div>
+                        <div class="project-item-description">
+                            Una pagina web imitando un sitio de un restaurante, hecho con un indice variable de forma que el contenido se carga dinámicamente mientras navigas por la página.
+                        </div>
+                        <div class="project-item-links">
+                            <a href="https://juliankings.github.io/odin-restaurant/" class="project-item-preview" target="_blank">Previsualizar</a>
+                            <a href="https://github.com/JulianKings/odin-restaurant/" class="project-item-github" target="_blank">Github</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-item">
+                    <div class="project-item-image">
+                        <img src="./images/project-9.webp" alt="Imagen del proyecto 9">
+                    </div>
+                    <div class="project-item-content">
+                        <div class="project-item-name">Tres en raya</div>
+                        <div class="project-item-tags">
+                            <div class="project-tag">JavaScript</div>
+                            <div class="project-tag">HTML</div>
+                            <div class="project-tag">CSS</div>
+                        </div>
+                        <div class="project-item-description">
+                            Un juego simple de tres en raya, cuya IA utiliza el algoritmo minimax para la dificultad 'invencible' para que lo maximo que se pueda conseguir sea un empate.
+                        </div>
+                        <div class="project-item-links">
+                            <a href="https://juliankings.github.io/odin-tic-tac-toe/" class="project-item-preview" target="_blank">Previsualizar</a>
+                            <a href="https://github.com/JulianKings/odin-tic-tac-toe/" class="project-item-github" target="_blank">Github</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-item">
+                    <div class="project-item-image">
+                        <img src="./images/project-10.webp" alt="Imagen del proyecto 10">
+                    </div>
+                    <div class="project-item-content">
+                        <div class="project-item-name">Aplicacion de Inventario</div>
+                        <div class="project-item-tags">
+                            <div class="project-tag">JavaScript</div>
+                            <div class="project-tag">HTML</div>
+                            <div class="project-tag">CSS</div>
+                        </div>
+                        <div class="project-item-description">
+                            Una aplicacion de inventario con la funcionalidad para subir tus propias imagenes, y una contraseña secreta para proteger la pagina de comportamiento peligroso.
+                        </div>
+                        <div class="project-item-links">
+                            <a href="https://odin-inventory-app-a38978611381.herokuapp.com/" class="project-item-preview" target="_blank">Previsualizar</a>
+                            <a href="https://github.com/JulianKings/odin-inventory-app" class="project-item-github" target="_blank">Github</a>
+                        </div>
+                    </div>
                 </article>
             </div>
         </section>
 
 
-        <section class="contact" id="sectionContact">
-            <h2>Contacto</h2>
+        <section class="contact section-box" id="sectionContact">
+            <h2 class="contact-title">Contacto</h2>
             <form>
-                <label for="name">Nombre</label>
-                <input type="text" id="name" name="name" placeholder="Nombre">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="Email">
-                <label for="message">Mensaje</label>
-                <textarea id="message" name="message" placeholder="Mensaje"></textarea>
-                <button>Enviar</button>
+                <div class="contact-form">
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" name="name" placeholder="Nombre">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Email">
+
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" name="message" placeholder="Mensaje"></textarea>
+                    
+                    <button>Enviar</button>
+                </div>
             </form>
         </section>
     </main>
